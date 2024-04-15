@@ -22,3 +22,15 @@
     font-weight: 400;
     font-style: normal;
 }
+.blue-bg {
+  background-color: #707FEA;
+}
+.gray {
+  color: #C7C2C2;
+}
+.shift-right {
+  transform:translateX(200px)
+}
+.dark-gray {
+  background-color: #495660;
+}
