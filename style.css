@@ -11,12 +11,6 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-.right-align {
-    transform:translateX(900px)
-}
-.right-align-plus {
-    transform:translateX(1100px)
-}
 .oleo {
     font-family: "Oleo Script", system-ui;
     font-weight: 400;
@@ -47,4 +41,15 @@
   border: 1px #000 dashed;
 	padding: 0px 10px;
 	margin: 20px 0px;
+}
+.purple-blue {
+  background-color: #7B3BE3;
+}
+.sans-caption {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.purple-background {
+  background-color: #9927AA;
 }
