@@ -28,12 +28,15 @@
       href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oleo+Script:wght@400;700&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="">
+        <div class="navbar navbar-dark bg-dark" id="hamburger">
           <button
             class="navbar-toggler"
             type="button"
@@ -45,18 +48,8 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <a class='jquery' href="#">Homepage</a>
         </div>
-      </nav>
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
-      </div>
-
-
-
-      
 
       <div class="dark-purple p-2">
         <div class="text-white">
@@ -71,7 +64,9 @@
             Welcome to my Web Designer Portfolio
           </h2>
           <div class="text-center">
-            <img src="https://img.freepik.com/premium-photo/computer-desk-with-three-monitors-keyboard-that-says-code-it_664601-4581.jpg">
+            <img
+              src="https://img.freepik.com/premium-photo/computer-desk-with-three-monitors-keyboard-that-says-code-it_664601-4581.jpg"
+            />
           </div>
         </div>
       </div>
@@ -79,13 +74,55 @@
       <div class="blue-bg p-2">
         <h1 class="gray truculenta shift-right">About Me</h1>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-2 m-3">
+                <div class="card dark-gray" style="width: 18rem; height: 18rem">
+                  <h4 class="text-white nunito m-3">
+                    I live in Marlboro, New Jersey
+                  </h4>
+                  <h4 class="text-white nunito m-3">
+                    I have an older sister and a younger brother
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-2 m-3">
+                <div class="card dark-gray" style="width: 18rem; height: 18rem">
+                  <h5 class="text-white nunito m-3">
+                    I enjoy learning many different code languages such as Python, JavaScript, CSS, etc
+                  </h5>
+                  <h5 class="text-white nunito m-3">
+                    I also enjoy applying my knowledge at competitions such as Hackathons, and I like to create and design websites for other people
+                  </h5>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-2 m-3">
+                <div class="card dark-gray" style="width: 18rem; height: 18rem">
+                  <h4 class="text-white nunito m-3">
+                    I am a member of the graduating class of 2024 at Marlboro High School
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 m-3"></div>
+              <div class="col-md-7 m-3">
+                <div class="card dark-gray" style="width: 45rem; height: 18rem">
+                  <h5 class="text-white nunito m-3 text-center">
+                    Driven by a passion for continuous learning and growth, my goal is to evolve as a versatile and proficient Web Designer and Developer. I am committed to honing my skills, staying updated on industry trends, and embracing new technologies to deliver innovative and impactful digital experiences. During my college years, I am eagerly seeking opportunities to apply my skills and gain real-world experience through internships in the field of web design. By immersing myself in professional environments, I aim to further refine my technical abilities, enhance my design sensibilities, and develop valuable industry insights.
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-2">
-            <div class="card dark-gray" style="width:18rem; height:18rem;"></div>
+          <div class="col-md-3">
+            <img src="prof-photo.jpg" height="600px" width="400px" />
           </div>
-        </div>          
         </div>
+      </div>
 
       <footer></footer>
       <!-- Bootstrap JavaScript Libraries -->
@@ -101,6 +138,7 @@
         crossorigin="anonymous"
       ></script>
       <script src="script.js"></script>
+      <script src="jquery-3.7.1.min.js"></script>
     </div>
   </body>
 </html>

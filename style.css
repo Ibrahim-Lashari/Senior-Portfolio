@@ -34,3 +34,17 @@
 .dark-gray {
   background-color: #495660;
 }
+.nunito {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+.navbar {
+  border: 1px #000 dashed;
+	padding: 0px 10px;
+	margin: 20px 0px;
+}
