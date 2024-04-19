@@ -19,9 +19,6 @@
 .blue-bg {
   background-color: #707FEA;
 }
-.gray {
-  color: #C7C2C2;
-}
 .shift-right {
   transform:translateX(200px)
 }
@@ -52,4 +49,9 @@
 }
 .purple-background {
   background-color: #9927AA;
+}
+.purple-card {
+  background-color: #7352B9;
+  height: 500px;
+  border-radius:20%;
 }
