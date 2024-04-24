@@ -1,3 +1,6 @@
+* {
+  --bs-gutter-x: 0 !important;
+}
 .dark-purple {
   background-color: #400f77;
 }
@@ -54,4 +57,7 @@
   background-color: #7352B9;
   height: 500px;
   border-radius:20%;
+}
+.gray-background {
+  background-color: #BDBCBB;
 }
