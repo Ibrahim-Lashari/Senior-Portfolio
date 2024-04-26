@@ -61,3 +61,78 @@
 .gray-background {
   background-color: #BDBCBB;
 }
+#myProgress1 {
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 5%;
+}
+
+#myBar1 {
+  width: 75%;
+  height: 80px;
+  background-color: #04AA6D;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  border-radius: 5%;
+}
+#myProgress2 {
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 5%;
+}
+
+#myBar2 {
+  width: 55%;
+  height: 80px;
+  background-color: #04AA6D;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  border-radius: 5%;
+}
+#myProgress3 {
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 5%;
+}
+
+#myBar3 {
+  width: 35%;
+  height: 80px;
+  background-color: #04AA6D;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  border-radius: 5%;
+}
+#myProgress4 {
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 5%;
+}
+
+#myBar4 {
+  width: 15%;
+  height: 80px;
+  background-color: #04AA6D;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  border-radius: 5%;
+}
+#myProgress5 {
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 5%;
+}
+
+#myBar5 {
+  width: 15%;
+  height: 80px;
+  background-color: #04AA6D;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  border-radius: 5%;
+}
