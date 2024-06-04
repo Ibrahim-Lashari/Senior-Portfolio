@@ -349,3 +349,7 @@ ul li .descr {
 .moreOpacity {
   opacity: 60%;
 }
+
+footer {
+  border-top: 1px solid black;
+}
